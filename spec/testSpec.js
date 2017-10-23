@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var greeting_js_1 = require("../greeting.js");
 describe("Suite", function () {
-    it("should say 'Good morning' at 4 am", function () {
+    it("should say 'Good mornihhng' at 4 am", function () {
         var time = new Date();
         time.setHours(4);
         expect(greeting_js_1.greeting(time)).toBe("Good morning");

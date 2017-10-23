@@ -1,7 +1,7 @@
 import { greeting } from '../greeting.js'
 
 describe("Suite", () => {
-    it("should say 'Good morning' at 4 am", () => {
+    it("should say 'Good mornihhng' at 4 am", () => {
         let time = new Date();
         time.setHours(4);
         expect(greeting(time)).toBe("Good morning");
