@@ -1,0 +1,30 @@
+{
+  "name": "continuousdeliverytest",
+  "version": "1.0.0",
+  "description": "A test project for training using Jasmine and Codeship",
+  "main": "index.js",
+  "scripts": {
+    "start": "Index.js",
+    "test": "jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TroelsHJ/continuousdeliverytest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TroelsHJ/continuousdeliverytest/issues"
+  },
+  "homepage": "https://github.com/TroelsHJ/continuousdeliverytest#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jasmine": "^2.8.0",
+    "jasmine-node": "^1.14.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.37",
+    "@types/jasmine": "^2.6.0",
+    "@types/jasmine-node": "^1.14.32"
+  }
+}
